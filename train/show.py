@@ -9,6 +9,7 @@ state_dict = torch.load("./output/params_12.pth")
 model.load_state_dict(state_dict)
 
 
+
 # img = Image.open(r"E:\Dataset\DIV2K_train_HR\DIV2K_train_HR\0091.png")
 # img = img.resize((256, 256))
 # img.show()
